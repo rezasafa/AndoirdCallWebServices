@@ -1,0 +1,224 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ListRecordPadding">
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="ImageListRecordScale">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+    </style>
+
+    <style name="matchScale.RadioGroup2Item">
+        <item name="android:layout_height">100dp</item>
+    </style>
+
+    <style name="matchScale.RadioGroup2Item.Height">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="matchScale.Height">
+        <item name="android:layout_height">100dp</item>
+    </style>
+
+    <style name="matchScale.Height.Half">
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="matchScale">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="wrapScale">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="matchScale.half2part">
+        <item name="android:layout_height">120dp</item>
+    </style>
+
+    <style name="matchScale.half2part.up">
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="matchScale.half2part.center">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="matchScale.MyReq_Right">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="matchScale.MyReq_Right_Half">
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="matchScale.Height.MyReq_Left">
+        <item name="android:layout_height">120dp</item>
+    </style>
+
+    <style name="matchScale.Height.MyReq_Left.Half">
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="matchScale.Height.MyReq_Left_3part">
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <!-- New Style **************************************************************************** -->
+    <style name="TextBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_text_style</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:radius">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorTextItems</item>
+        <item name="android:text"></item>
+    </style>
+
+    <style name="TextBox.RightText">
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="TextBox.TextArea">
+        <item name="android:layout_height">200dp</item>
+        <item name="android:inputType">text|textMultiLine</item>
+        <item name="android:gravity">top|right</item>
+    </style>
+
+    <style name="TextBox.Number">
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="TextBox.Password">
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="TextBox.Number.Date">
+        <item name="android:maxLength">10</item>
+        <item name="android:digits">0123456789/</item>
+        <item name="android:hint">1397/01/01</item>
+    </style>
+
+    <style name="TextBox.Number.Time">
+        <item name="android:maxLength">5</item>
+        <item name="android:digits">0123456789:</item>
+        <item name="android:hint">09:00</item>
+    </style>
+
+    <style name="TextBox.Number.Mobile">
+        <item name="android:maxLength">12</item>
+        <item name="android:hint">09121234567</item>
+    </style>
+
+    <style name="TextBox.Number.Tel">
+        <item name="android:maxLength">20</item>
+        <item name="android:hint">021123456789</item>
+    </style>
+
+    <style name="TextBox.Number.IP">
+        <item name="android:maxLength">15</item>
+        <item name="android:digits">0123456789.</item>
+        <item name="android:hint">192.168.1.1</item>
+    </style>
+
+    <style name="Lable">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Lable.TextCenter">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Lable.TextCenter.BigSize">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_shape</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorNormal</item>
+    </style>
+
+    <style name="Button.BottomParent">
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="InvisibleObject">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="SplashScreenText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/colorNormal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SplashScreenText.Black">
+        <item name="android:textColor">@color/colorTextItems</item>
+    </style>
+
+    <style name="Relative_Statndard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="Relative_Statndard.CenterInParent">
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="ComboBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

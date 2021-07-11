@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentSetting">
+
+    <RelativeLayout
+        style="@style/matchScale"
+        >
+        <TextView
+            style="@style/Lable"
+            android:id="@+id/fs_lblText"
+            android:text="@string/slblIPAddress"
+            />
+        <EditText
+            style="@style/TextBox"
+            android:layout_below="@+id/fs_lblText"
+            android:id="@+id/fs_txtIP"
+            />
+        <Button
+            style="@style/Button"
+            android:layout_below="@+id/fs_txtIP"
+            android:id="@+id/fs_btnCheck"
+            android:text="@string/sbtn_CheckConnection"/>
+        <Button
+            style="@style/Button"
+            android:layout_below="@+id/fs_btnCheck"
+            android:id="@+id/fs_btnSave"
+            android:text="@string/sBtn_Save"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

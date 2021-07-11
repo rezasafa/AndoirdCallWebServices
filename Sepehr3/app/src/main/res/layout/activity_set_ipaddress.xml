@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetIPAddress">
+
+    <RelativeLayout
+        style="@style/matchScale"
+        >
+        <TextView
+            style="@style/Lable"
+            android:id="@+id/sip_lblAddress"
+            android:text="@string/slblIPAddress"
+            android:layout_above="@+id/sip_Address"
+            />
+        <EditText
+            style="@style/TextBox.Number.IP"
+            android:id="@+id/sip_Address"
+            android:layout_above="@+id/sip_PortAddress"
+            />
+        <TextView
+            style="@style/Lable"
+            android:id="@+id/sip_PortAddress"
+            android:text="@string/slblPortAddress"
+            android:layout_centerInParent="true"
+            />
+        <EditText
+            style="@style/TextBox.Number"
+            android:id="@+id/sip_Port"
+            android:maxLength="5"
+            android:hint="80"
+            android:layout_below="@+id/sip_PortAddress"
+            />
+        <Button
+            style="@style/Button"
+            android:id="@+id/sip_BtnCheckAddress"
+            android:layout_below="@+id/sip_Port"
+            android:text="@string/sbtn_CheckConnection"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

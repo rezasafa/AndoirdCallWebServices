@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/ListRecordPadding"
+    android:background="@drawable/record_shape"
+    >
+
+    <TextView
+        style="@style/Lable"
+        android:id="@+id/daj_lblAcc_No"
+        android:text=""
+        />
+    <TextView
+        style="@style/Lable"
+        android:id="@+id/daj_lblAcc_Name"
+        android:layout_below="@+id/daj_lblAcc_No"
+        android:text=""
+        />
+    <!--<TextView
+        style="@style/Lable"
+        android:layout_below="@+id/daj_lblAcc_Name"
+        android:id="@+id/daj_lblLAcc_Name"
+        android:text=""
+        />-->
+
+</RelativeLayout>
